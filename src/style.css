@@ -30,6 +30,7 @@
     .container {
         display: flex;
         background-color: #1F2233;
+        border-radius: 10px;
     }
     .font-ini {
         margin: 35px;
@@ -54,5 +55,33 @@
         font-family: 'Spartan';
         font-size: 65px;
         color: #090a0f;
+    }
+    .div-redes {
+        display: flex;
+        margin-top: 10px;
+        background-color: rgb(101, 120, 136);
+        padding: 5px;
+        padding-right: 20px;
+        border-radius: 5px;
+    }
+    .redes {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .redes1 {
+        font-family: 'Spartan';
+        color: #090a0f;
+        margin-top: 15px;
+        font-size: 80px;
+    }
+    .redes-contatos {
+        font-family: 'Spartan';
+        color: #090a0f;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .logos-contatos {
+        width: 50px;
     }
 }
