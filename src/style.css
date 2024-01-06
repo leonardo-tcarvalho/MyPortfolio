@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url(fonts/LeagueSpartan-Bold.otf);
+}
+@media (max-width: 450px) {
+    
+}
+@media (min-width: 451px) and (max-width: 767px) {
+    
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 1025px) {
+    body {
+        background-color: #090a0f;
+    }
+    .navbar {
+        justify-content: center;
+        width: 100%;
+        background-color: #090a0f;
+    }
+    .foto-perfil {
+        width: 400px;
+        border-radius: 300px;
+        margin: 35px;
+        margin-top: 60px;
+        box-shadow: 2px 5px 10px #090a0f;
+    }
+    .container {
+        display: flex;
+        background-color: #1F2233;
+    }
+    .font-ini {
+        margin: 35px;
+        margin-top: 60px;
+    }
+    .font-ini1 {
+        font-family: 'Spartan';
+        font-size: 20px;
+        color: #090a0f;
+    }
+    .font-ini2 {
+        font-family: 'Spartan';
+        font-size: 65px;
+        color: #090a0f;
+    }
+    .font-ini3 {
+        font-family: 'Spartan';
+        font-size: 35px;
+        color: #090a0f;
+    }
+    .font-ini4 {
+        font-family: 'Spartan';
+        font-size: 65px;
+        color: #090a0f;
+    }
+}
