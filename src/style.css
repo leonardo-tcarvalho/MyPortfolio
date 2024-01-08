@@ -20,6 +20,13 @@
         width: 100%;
         background-color: #1F2233;
     }
+    .nav-link {
+        color: rgb(255, 255, 255);
+        font-family: 'Spartan';
+    }
+    .nav-link:hover {
+        color: #090a0f;
+    }
     .foto-perfil {
         width: 400px;
         border-radius: 300px;
@@ -100,6 +107,8 @@
     }
     .div-sobre{
         display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     .sobre-mim {
         margin-bottom: 20px;
@@ -223,8 +232,10 @@
         text-align: center;
     }
     .div-habilidades {
+        padding-top: 10px;
         display: block;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
     .hard-skills {
         margin-bottom: 20px;
@@ -314,6 +325,7 @@
     }
     .div-softskills {
         display: flex;
+        margin-bottom: ;
     }
     .ponto {
         margin: 5px;
@@ -327,5 +339,49 @@
         font-size: 20px;
         color: #ffffff;
         letter-spacing: 2px;
+        padding: ;
+    }
+    .estudos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-estudos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-estudos {
+        background-color: #090a0f;
+        width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        
+    }
+    .icon-rjs {
+        width: 70px;
+        padding-left: 10px;
+    }
+    .icon-sql {
+        width: 65px;
+        margin-left: 20px;
+    }
+    .icon-ts {
+        width: 55px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .icon-php {
+        width: 70px;
+        margin-left: 20px;
     }
 }
