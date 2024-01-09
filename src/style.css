@@ -40,9 +40,12 @@
         border-radius: 10px;
         box-shadow: 2px 5px 5px black;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     .stacks {
-        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 345px;
         margin-top: 40px;
         padding-top: 20px;
         border-radius: 10px;
@@ -56,7 +59,8 @@
     }
     .stacks-icons {
         display: flex;
-        padding: 7px;
+        padding: 8px;
+        margin-left: 11px;
     }
     .stc-rjs {
         width: 55px;
@@ -65,7 +69,6 @@
     .stc-php {
         margin-top: 8px;
         width: 75px;
-        margin-left: 20px;
     }
     .stc-js {
         width: 70px;
@@ -194,6 +197,7 @@
         padding: 5px;
     }
     .progress {
+        height: 10px;
         width: 311px;
         border-radius: 200px;
     }
@@ -296,7 +300,6 @@
         padding: 20px;
         border-radius: 10px;
         display: flex;
-        
     }
     .icon-rjs {
         width: 60px;
@@ -307,12 +310,13 @@
         margin-left: 20px;
     }
     .icon-ts {
-        width: 45px;
+        width: 48px;
         margin-left: 20px;
         margin-top: 5px;
     }
     .icon-php {
-        width: 60px;
+        margin-top: 5px;
+        width: 70px;
         margin-left: 20px;
     }
 }
