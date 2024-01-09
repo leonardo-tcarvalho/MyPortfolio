@@ -43,9 +43,10 @@
         margin-bottom: 20px;
     }
     .stacks {
+        display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 345px;
+        width: 330px;
         margin-top: 40px;
         padding-top: 20px;
         border-radius: 10px;
@@ -58,27 +59,29 @@
         font-size: 20px;
     }
     .stacks-icons {
+        width: 285px;
         display: flex;
-        padding: 8px;
-        margin-left: 11px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
     }
     .stc-rjs {
-        width: 55px;
+        width: 45px;
         margin-top: 8px;
     }
     .stc-php {
         margin-top: 8px;
-        width: 75px;
+        width: 65px;
     }
     .stc-js {
-        width: 70px;
+        width: 60px;
     }
     .stc-python {
-        width: 53px;
+        width: 43px;
         margin-top: 8px;
     }
     .stc-vsc {
-        width: 58px;
+        width: 48px;
         margin-top: 6px;
     }
     .inicio {
