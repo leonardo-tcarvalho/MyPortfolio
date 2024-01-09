@@ -351,8 +351,8 @@
         color: #090a0f;
     }
     .foto-perfil {
-        width: 400px;
-        border-radius: 300px;
+        width: 70%;
+        border-radius: 500px;
         margin: 35px;
         margin-top: 60px;
         box-shadow: 2px 5px 10px #090a0f;
@@ -364,41 +364,53 @@
         display: flex;
     }
     .stacks {
-        width: 370px;
+        display: block;
         margin-left: auto;
-        margin-right: 240px;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 40px;
         padding-top: 20px;
         border-radius: 10px;
         background-color: #090a0f;
+        box-shadow: 2px 5px 5px black;
+    }
+    .div-h1-stack {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .h1-stacks {
         text-align: center;
         font-family: 'Spartan';
         color: #ffffff;
         font-size: 20px;
+        text-shadow: 2px 5px 5px black;
     }
     .stacks-icons {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
-        margin-left: 15px;
+        padding: 15px;
     }
     .stc-rjs {
-        width: 55px;
+        width: 90%;
         margin-top: 8px;
     }
     .stc-php {
         margin-top: 8px;
-        width: 75px;
-        margin-left: 20px;
+        width: 100%;
     }
     .stc-js {
-        width: 70px;
+        margin-top: 2px;
+        width: 98%;
     }
     .stc-python {
-        width: 53px;
-        margin-top: 8px;
+        width: 80%;
+        margin-top: 6px;
     }
     .stc-vsc {
-        width: 58px;
+        width: 85%;
         margin-top: 6px;
     }
     .container {
@@ -407,38 +419,42 @@
         border-radius: 10px;
         box-shadow: 2px 5px 5px black;
         margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
     .font-ini {
-        margin: 35px;
-        margin-top: 60px;
+        width: 80%;
+        margin-right: 40px;
+        margin-top: 90px;
     }
     .font-ini1 {
         font-family: 'Spartan';
-        font-size: 25px;
+        font-size: 20px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
     .font-ini2 {
         font-family: 'Spartan';
-        font-size: 65px;
+        font-size: 55px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
     .font-ini3 {
         font-family: 'Spartan';
-        font-size: 35px;
+        font-size: 20px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
     .font-ini4 {
         font-family: 'Spartan';
-        font-size: 65px;
+        font-size: 50px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
     .div-princ-redes {
         margin-top: 30px;
         background-color: #ffffff;
+        margin-bottom: 20px;
     }
     .div-redes {
         display: flex;
@@ -495,7 +511,7 @@
     }
     .section-hardskills {
         background-color: #090a0f;
-        width: 1000px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 40px;
@@ -507,14 +523,13 @@
     .progress {
         margin-left: auto;
         margin-right: auto;
-        width: 800px;
+        width: 100%;
         border-radius: 100px;
     }
     .h1-progresso {
         font-family: 'Spartan';
         color: #ffffff;
         font-size: 20px;
-        width: 800px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -547,7 +562,7 @@
     }
     .section-softskills {
         background-color: #090a0f;
-        width: 500px;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -591,7 +606,7 @@
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        width: 220px;
+        width: 15%;
     }
     .h1-estudos {
         font-family: 'Spartan';
@@ -604,12 +619,17 @@
     }
     .div-estudos {
         background-color: #090a0f;
-        width: 370px;
+        width: 35%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
         border-radius: 10px;
         display: flex;
+    }
+    .div-estudos-icons {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
     .icon-rjs {
         width: 70px;
