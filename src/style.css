@@ -41,6 +41,43 @@
         box-shadow: 2px 5px 5px black;
         margin-top: 20px;
     }
+    .stacks {
+        width: 360px;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-radius: 10px;
+        background-color: #090a0f;
+    }
+    .h1-stacks {
+        text-align: center;
+        font-family: 'Spartan';
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .stacks-icons {
+        display: flex;
+        padding: 7px;
+    }
+    .stc-rjs {
+        width: 55px;
+        margin-top: 8px;
+    }
+    .stc-php {
+        margin-top: 8px;
+        width: 75px;
+        margin-left: 20px;
+    }
+    .stc-js {
+        width: 70px;
+    }
+    .stc-python {
+        width: 53px;
+        margin-top: 8px;
+    }
+    .stc-vsc {
+        width: 58px;
+        margin-top: 6px;
+    }
     .inicio {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -90,8 +127,9 @@
         text-shadow: 2px 2px 2px black;
     }
     .div-princ-redes {
-        margin-top: 30px;
+        padding-bottom: 20px;
         background-color: white;
+        padding-left: 20px;
     }
     .div-redes {
         display: block;
@@ -301,6 +339,50 @@
         margin-top: 60px;
         box-shadow: 2px 5px 10px #090a0f;
     }
+    .inicio {
+        display: block !important
+    }
+    .inicio-apresentação {
+        display: flex;
+    }
+    .stacks {
+        width: 370px;
+        margin-left: auto;
+        margin-right: 240px;
+        padding-top: 20px;
+        border-radius: 10px;
+        background-color: #090a0f;
+    }
+    .h1-stacks {
+        text-align: center;
+        font-family: 'Spartan';
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .stacks-icons {
+        display: flex;
+        margin-left: 15px;
+    }
+    .stc-rjs {
+        width: 55px;
+        margin-top: 8px;
+    }
+    .stc-php {
+        margin-top: 8px;
+        width: 75px;
+        margin-left: 20px;
+    }
+    .stc-js {
+        width: 70px;
+    }
+    .stc-python {
+        width: 53px;
+        margin-top: 8px;
+    }
+    .stc-vsc {
+        width: 58px;
+        margin-top: 6px;
+    }
     .container {
         display: flex;
         background-color: #1F2233;
@@ -504,7 +586,6 @@
         padding: 20px;
         border-radius: 10px;
         display: flex;
-        
     }
     .icon-rjs {
         width: 70px;
@@ -520,7 +601,18 @@
         margin-top: 5px;
     }
     .icon-php {
-        width: 70px;
+        margin-top: 4px;
+        width: 80px;
         margin-left: 20px;
+    }
+    .icon-js {
+        width: 70px;
+    }
+    .icon-python {
+        width: 60px;
+    }
+    .icon-vsc {
+        width: 60px;
+        margin-top: 5px;
     }
 }
