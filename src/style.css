@@ -223,7 +223,13 @@
         background-color: rgb(44, 0, 89) !important;
     }
     .cor-linux {
-        background-color: rgb(255, 0, 81) !important;
+        background-color: rgb(255, 7, 156) !important;
+    }
+    .cor-php {
+        background-color: rgb(255, 6, 6) !important;
+    }
+    .cor-sql {
+        background-color: rgb(0, 255, 157) !important;
     }
     .section-softskills {
         background-color: #090a0f;
@@ -519,7 +525,13 @@
         background-color: rgb(44, 0, 89) !important;
     }
     .cor-linux {
-        background-color: rgb(255, 0, 81) !important;
+        background-color: rgb(255, 7, 156) !important;
+    }
+    .cor-php {
+        background-color: rgb(255, 6, 6) !important;
+    }
+    .cor-sql {
+        background-color: rgb(0, 255, 157) !important;
     }
     .section-softskills {
         background-color: #090a0f;
