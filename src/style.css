@@ -3,7 +3,361 @@
     src: url(fonts/LeagueSpartan-Bold.otf);
 }
 @media (max-width: 450px) {
-    
+    body {
+        background-color: #090a0f;
+    }
+    .navbar {
+        justify-content: center;
+        width: 100%;
+        background-color: #1F2233;
+    }
+    .nav-link {
+        color: rgb(255, 255, 255);
+        font-family: 'Spartan';
+        width: 25%;
+        font-size: 12px;
+    }
+    #nav-inicio-tab{
+        width: 20%;
+    }
+    #nav-habilidades-tab{
+        width: 29%;
+    }
+    #nav-projetos-tab{
+        width: 25%;
+    }
+    #nav-contatos-tab{
+        width: 25%;
+    }
+    .nav-link:hover {
+        color: #090a0f;
+    }
+    .container {
+        padding-top: 20px;
+        display: block;
+        width: 90%;
+        background-color: #1F2233;
+        border-radius: 10px;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 20px;
+    }
+    .inicio {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        width: 90%;
+        background-color: #1F2233;
+        border-radius: 10px;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 20px;
+    }
+    .foto-perfil {
+        display: flex;
+        width: 300px;
+        border-radius: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        box-shadow: 2px 5px 10px #090a0f;
+    }
+    .font-ini {
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .font-ini1 {
+        font-family: 'Spartan';
+        font-size: 13px;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px black;
+    }
+    .font-ini2 {
+        font-family: 'Spartan';
+        font-size: 40px;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px black;
+    }
+    .font-ini3 {
+        font-family: 'Spartan';
+        font-size: 15px;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px black;
+    }
+    .font-ini4 {
+        font-family: 'Spartan';
+        font-size: 35px;
+        color: #ffffff;
+        text-shadow: 2px 2px 2px black;
+    }
+    .div-princ-redes {
+        margin-top: 30px;
+        background-image: url(files/comunicação.jpg);
+        background-position: center;
+    }
+    .div-redes {
+        display: block;
+        margin-top: 10px;
+        padding: 5px;
+        padding-right: 20px;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    .redes {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .redes1 {
+        font-family: 'Spartan';
+        color: #090a0f;
+        margin-top: 15px;
+        font-size: 40px;
+    }
+    .redes-contatos {
+        font-family: 'Spartan';
+        color: #090a0f;
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .logos-contatos {
+        width: 50px;
+    }
+    .links {
+        text-decoration: none;
+    }
+    .div-sobre{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .sobre-mim {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+    .h1-sobre {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 35px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .time-line {
+        font-family: 'Spartan';
+        display: flex;
+    }
+    .linha {
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contexto1 {
+        padding: 10px;
+        padding-bottom: 1px;
+        width: 310px;
+        color: #000000;
+        font-size: 15px;
+        margin-bottom: 210px;
+        background-color: #a5a5a9;
+        border-radius: 15px;
+        box-shadow: 2px 5px 5px black;
+    }
+    .contexto2 {
+        padding: 10px;
+        padding-bottom: 1px;
+        width: 310px;
+        color: #000000;
+        font-size: 15px;
+        margin-top: 220px;
+        background-color: #a5a5a9;
+        border-radius: 15px;
+        box-shadow: 2px 5px 5px black;
+    }
+    .contexto3 {
+        padding: 10px;
+        padding-bottom: 1px;
+        width: 310px;
+        color: #000000;
+        font-size: 15px;
+        margin-bottom: 240px;
+        background-color: #a5a5a9;
+        border-radius: 15px;
+        box-shadow: 2px 5px 5px black;
+    }
+    .contexto4 {
+        padding: 10px;
+        padding-bottom: 1px;
+        width: 310px;
+        color: #000000;
+        font-size: 15px;
+        margin-top: 220px;
+        background-color: #a5a5a9;
+        border-radius: 15px;
+        box-shadow: 2px 5px 5px black;
+    }
+    .ano {
+        font-family: 'Spartan';
+        color: #090a0f;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .div-habilidades {
+        padding-top: 10px;
+        display: block;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .hard-skills {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-hskills {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section-hardskills {
+        background-color: #090a0f;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        border-radius: 10px;
+        display: block;
+    }
+    .barra-progresso {
+        padding: 5px;
+    }
+    .progress {
+        width: 311px;
+        border-radius: 200px;
+    }
+    .h1-progresso {
+        font-family: 'Spartan';
+        color: #ffffff;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cor-python {
+        background-color: rgb(51, 255, 0) !important;
+    }
+    .cor-html {
+        background-color: rgb(255, 136, 0) !important;
+    }
+    .cor-js {
+        background-color: rgb(147, 154, 20) !important;
+    }
+    .cor-css {
+        background-color: rgb(5, 83, 4) !important;
+    }
+    .cor-bootstrap {
+        background-color: rgb(76, 0, 255) !important;
+    }
+    .cor-docker {
+        background-color: rgb(44, 0, 89) !important;
+    }
+    .cor-linux {
+        background-color: rgb(255, 0, 81) !important;
+    }
+    .section-softskills {
+        background-color: #090a0f;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .soft-skills {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-sskills {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 25x;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-softskills {
+        display: flex;
+    }
+    .ponto {
+        margin-top: 6px;
+        margin-right: 4px;
+        height: 5px;
+        width: 5px;
+        background-color: #ffffff;
+        border-radius: 50px;
+    }
+    .h1-soft {
+        font-family: 'Spartan';
+        font-size: 18px;
+        color: #ffffff;
+        letter-spacing: 2px;
+    }
+    .estudos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-estudos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-estudos {
+        background-color: #090a0f;
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        
+    }
+    .icon-rjs {
+        width: 60px;
+        padding-left: 10px;
+    }
+    .icon-sql {
+        width: 55px;
+        margin-left: 20px;
+    }
+    .icon-ts {
+        width: 45px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .icon-php {
+        width: 60px;
+        margin-left: 20px;
+    }
 }
 @media (min-width: 451px) and (max-width: 767px) {
     
@@ -105,132 +459,6 @@
     .links {
         text-decoration: none;
     }
-    .div-sobre{
-        display: block;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    .sobre-mim {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-    }
-    .h1-sobre {
-        font-family: 'Spartan';
-        color: #ffffff;
-        padding-top: 5px;
-        font-size: 35px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .time-line {
-        font-family: 'Spartan';
-        display: flex;
-    }
-    .linha {
-        display: flex;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .linha1 {
-        margin-top: 7px;
-        width: 200px;
-        background-color: black;
-        height: 10px;
-    }
-    .linha2 {
-        width: 25px;
-        background-color: black;
-        height: 25px;
-        border-radius: 10px;
-    }
-    .linha3 {
-        width: 15px;
-        background-color: #a5a5a9;
-        height: 15px;
-        border-radius: 50px;
-        margin: auto;
-        margin-top: 4.5px;
-    }
-    .linhas {
-        display: flex;
-    }
-    .linhas1 {
-        background-color: #000000;
-        height: 30px;
-        width: 5px;
-        margin-left: 219px;
-    }
-    .linhas2 {
-        background-color: #000000;
-        height: 30px;
-        width: 5px;
-        margin-left: 444px;
-    }
-    .linhas3 {
-        background-color: #000000;
-        height: 30px;
-        width: 5px;
-        margin-left: 442.5px;
-    }
-    .linhas4 {
-        background-color: #000000;
-        height: 30px;
-        width: 5px;
-        margin-left: 444px;
-    }
-    .contexto1 {
-        padding: 15px;
-        width: 250px;
-        color: #000000;
-        font-size: 13px;
-        margin-left: 95px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto2 {
-        padding: 15px;
-        width: 250px;
-        color: #000000;
-        font-size: 12px;
-        margin-left: 198px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto3 {
-        padding: 15px;
-        width: 250px;
-        color: #000000;
-        font-size: 12px;
-        margin-left: 319px;
-        margin-bottom: 15px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto4 {
-        padding: 15px;
-        width: 250px;
-        color: #000000;
-        font-size: 12px;
-        margin-left: 202px;
-        margin-bottom: 15px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .ano {
-        font-family: 'Spartan';
-        color: #090a0f;
-        font-size: 20px;
-        letter-spacing: 2px;
-        text-align: center;
-    }
     .div-habilidades {
         padding-top: 10px;
         display: block;
@@ -296,7 +524,7 @@
     .cor-docker {
         background-color: rgb(44, 0, 89) !important;
     }
-    .cor-sql {
+    .cor-linux {
         background-color: rgb(255, 0, 81) !important;
     }
     .section-softskills {
@@ -325,7 +553,7 @@
     }
     .div-softskills {
         display: flex;
-        margin-bottom: ;
+        margin-top: 10px;
     }
     .ponto {
         margin: 5px;
