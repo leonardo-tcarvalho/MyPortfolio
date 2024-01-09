@@ -116,94 +116,13 @@
         font-family: 'Spartan';
         color: #090a0f;
         margin-top: 15px;
-        font-size: 18px;
+        font-size: 17px;
     }
     .logos-contatos {
-        width: 50px;
+        width: 40px;
     }
     .links {
         text-decoration: none;
-    }
-    .div-sobre{
-        display: block;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-    .sobre-mim {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 200px;
-    }
-    .h1-sobre {
-        font-family: 'Spartan';
-        color: #ffffff;
-        padding-top: 5px;
-        font-size: 35px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .time-line {
-        font-family: 'Spartan';
-        display: flex;
-    }
-    .linha {
-        display: flex;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .contexto1 {
-        padding: 10px;
-        padding-bottom: 1px;
-        width: 310px;
-        color: #000000;
-        font-size: 15px;
-        margin-bottom: 210px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto2 {
-        padding: 10px;
-        padding-bottom: 1px;
-        width: 310px;
-        color: #000000;
-        font-size: 15px;
-        margin-top: 220px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto3 {
-        padding: 10px;
-        padding-bottom: 1px;
-        width: 310px;
-        color: #000000;
-        font-size: 15px;
-        margin-bottom: 240px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .contexto4 {
-        padding: 10px;
-        padding-bottom: 1px;
-        width: 310px;
-        color: #000000;
-        font-size: 15px;
-        margin-top: 220px;
-        background-color: #a5a5a9;
-        border-radius: 15px;
-        box-shadow: 2px 5px 5px black;
-    }
-    .ano {
-        font-family: 'Spartan';
-        color: #090a0f;
-        font-size: 20px;
-        letter-spacing: 2px;
-        text-align: center;
     }
     .div-habilidades {
         padding-top: 10px;
