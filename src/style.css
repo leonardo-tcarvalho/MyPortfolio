@@ -21,7 +21,7 @@
         width: 20%;
     }
     #nav-habilidades-tab{
-        width: 29%;
+        width: 30%;
     }
     #nav-projetos-tab{
         width: 25%;
@@ -96,13 +96,9 @@
     .div-redes {
         display: block;
         margin-top: 10px;
-        padding-right: 20px;
-        border-radius: 5px;
-        opacity: 0.8;
     }
     .redes {
         margin-bottom: 20px;
-        padding: 20px;
     }
     .redes1 {
         font-family: 'Spartan';
@@ -114,7 +110,7 @@
         font-family: 'Spartan';
         color: #090a0f;
         margin-top: 15px;
-        font-size: 17px;
+        font-size: 15px;
     }
     .logos-contatos {
         width: 40px;
