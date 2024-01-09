@@ -46,11 +46,16 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 330px;
+        width: 100%;
         margin-top: 40px;
         padding-top: 20px;
         border-radius: 10px;
         background-color: #090a0f;
+    }
+    .div-h1-stack {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .h1-stacks {
         text-align: center;
@@ -59,29 +64,29 @@
         font-size: 20px;
     }
     .stacks-icons {
-        width: 285px;
+        width: 90%;
+        margin: auto;
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
         padding: 15px;
     }
     .stc-rjs {
-        width: 45px;
+        width: 90%;
         margin-top: 8px;
     }
     .stc-php {
         margin-top: 8px;
-        width: 65px;
+        width: 100%;
     }
     .stc-js {
-        width: 60px;
+        margin-top: 2px;
+        width: 98%;
     }
     .stc-python {
-        width: 43px;
-        margin-top: 8px;
+        width: 80%;
+        margin-top: 6px;
     }
     .stc-vsc {
-        width: 48px;
+        width: 85%;
         margin-top: 6px;
     }
     .inicio {
@@ -96,7 +101,7 @@
     }
     .foto-perfil {
         display: flex;
-        width: 300px;
+        width: 80%;
         border-radius: 300px;
         margin-left: auto;
         margin-right: auto;
@@ -104,6 +109,7 @@
         box-shadow: 2px 5px 10px #090a0f;
     }
     .font-ini {
+        width: 100%;
         margin-top: 50px;
         padding-left: 20px;
         padding-right: 20px;
@@ -116,7 +122,7 @@
     }
     .font-ini2 {
         font-family: 'Spartan';
-        font-size: 40px;
+        font-size: 37px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
@@ -128,7 +134,7 @@
     }
     .font-ini4 {
         font-family: 'Spartan';
-        font-size: 35px;
+        font-size: 30px;
         color: #ffffff;
         text-shadow: 2px 2px 2px black;
     }
@@ -157,7 +163,7 @@
         font-size: 15px;
     }
     .logos-contatos {
-        width: 40px;
+        width: 10%;
     }
     .links {
         text-decoration: none;
@@ -186,7 +192,7 @@
     }
     .section-hardskills {
         background-color: #090a0f;
-        width: 340px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 30px;
@@ -201,7 +207,7 @@
     }
     .progress {
         height: 10px;
-        width: 311px;
+        width: 100%;
         border-radius: 200px;
     }
     .h1-progresso {
@@ -240,7 +246,7 @@
     }
     .section-softskills {
         background-color: #090a0f;
-        width: 340px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -284,7 +290,7 @@
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-        width: 220px;
+        width: 100%;
     }
     .h1-estudos {
         font-family: 'Spartan';
@@ -297,7 +303,7 @@
     }
     .div-estudos {
         background-color: #090a0f;
-        width: 340px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -305,22 +311,16 @@
         display: flex;
     }
     .icon-rjs {
-        width: 60px;
-        padding-left: 10px;
+        width: 95%;
     }
     .icon-sql {
-        width: 55px;
-        margin-left: 20px;
+        width: 80%;
     }
     .icon-ts {
-        width: 48px;
-        margin-left: 20px;
-        margin-top: 5px;
+        width: 100%;
     }
     .icon-php {
-        margin-top: 5px;
-        width: 70px;
-        margin-left: 20px;
+        width: 110%;
     }
 }
 @media (min-width: 451px) and (max-width: 767px) {
