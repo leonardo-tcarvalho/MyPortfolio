@@ -904,7 +904,7 @@
     }
     .section-softskills {
         background-color: #090a0f;
-        width: 100%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -962,11 +962,12 @@
     }
     .div-estudos {
         background-color: #090a0f;
-        width: 100%;
+        width: 35%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
         border-radius: 10px;
+        box-shadow: 2px 5px 5px black;
     }
     .div-estudos-icons {
         display: flex;
@@ -1002,6 +1003,7 @@
     }
     .nav-link:hover {
         color: #090a0f;
+        border-color: aqua;
     }
     .foto-perfil {
         width: 70%;
@@ -1278,6 +1280,7 @@
         padding: 20px;
         border-radius: 10px;
         display: flex;
+        box-shadow: 2px 5px 5px black;
     }
     .div-estudos-icons {
         display: flex;
@@ -1311,5 +1314,49 @@
     .icon-vsc {
         width: 60px;
         margin-top: 5px;
+    }
+    .div-projetos {
+        padding-top: 30px;
+        display: block;
+    }
+    .div-card {
+        width: 90%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    .meus-projetos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-projetos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        background-color: #090a0f;
+        color: white;
+    }
+    .btn {
+        background-color: white;
+        color: black;
+        width: 50%;
+        margin-top: 20px;        margin-left: 25%;
+        box-shadow: 2px 5px 5px black;
+    }
+    .btn:hover {
+        background-color: #1F2233;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        border-color: aqua;
     }
 }
