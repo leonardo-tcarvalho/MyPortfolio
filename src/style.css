@@ -1322,9 +1322,9 @@
     .div-card {
         width: 90%;
         display: flex;
+        justify-content: space-around;
         margin-left: auto;
         margin-right: auto;
-        justify-content: space-between;
     }
     .meus-projetos {
         margin-bottom: 20px;
@@ -1346,6 +1346,9 @@
         background-color: #090a0f;
         color: white;
     }
+    .d-block {
+        border-radius: 5px;
+    }
     .btn {
         background-color: white;
         color: black;
@@ -1357,6 +1360,11 @@
         background-color: #1F2233;
         color: white;
         box-shadow: 2px 5px 5px black;
-        border-color: aqua;
+        border-color: rgb(255, 255, 255);
+    }
+    .spinner-border {
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
     }
 }
