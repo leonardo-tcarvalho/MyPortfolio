@@ -327,6 +327,62 @@
     .icon-php {
         width: 110%;
     }
+    .div-projetos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .div-card {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
+    .meus-projetos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .h1-projetos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        width: 100%;
+        background-color: #090a0f;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 20px !important;
+        margin: auto;
+    }
+    .d-block {
+        border-radius: 5px;
+    }
+    .btn {
+        background-color: white;
+        color: black;
+        width: 50%;
+        margin-top: 20px;        margin-left: 25%;
+        box-shadow: 2px 5px 5px black;
+    }
+    .btn:hover {
+        background-color: #1F2233;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        border-color: rgb(255, 255, 255);
+    }
+    .spinner-border {
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
 }
 @media (min-width: 451px) and (max-width: 767px) {
     body {
@@ -653,7 +709,63 @@
     }
     .icon-php {
         width: 110%;
-    }    
+    }
+    .div-projetos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .div-card {
+        width: 80%;
+        display: block;
+        justify-content: center;
+        margin: auto;
+    }
+    .meus-projetos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-projetos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        background-color: #090a0f;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .d-block {
+        border-radius: 5px;
+    }
+    .btn {
+        background-color: white;
+        color: black;
+        width: 50%;
+        margin-top: 20px;        margin-left: 25%;
+        box-shadow: 2px 5px 5px black;
+    }
+    .btn:hover {
+        background-color: #1F2233;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        border-color: rgb(255, 255, 255);
+    }
+    .spinner-border {
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     body {
@@ -986,6 +1098,63 @@
     }
     .icon-php {
         width: 110%;
+    }
+    .div-projetos {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+    }
+    .div-card {
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        margin: auto;
+    }
+    .meus-projetos {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+    .h1-projetos {
+        font-family: 'Spartan';
+        color: #ffffff;
+        padding-top: 5px;
+        font-size: 30px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        background-color: #090a0f;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .d-block {
+        border-radius: 5px;
+    }
+    .btn {
+        background-color: white;
+        color: black;
+        width: 50%;
+        margin-top: 20px;        margin-left: 25%;
+        box-shadow: 2px 5px 5px black;
+    }
+    .btn:hover {
+        background-color: #1F2233;
+        color: white;
+        box-shadow: 2px 5px 5px black;
+        border-color: rgb(255, 255, 255);
+    }
+    .spinner-border {
+        margin-top: 30px;
+        width: 100px;
+        height: 100px;
     }
 }
 @media (min-width: 1025px) {
@@ -1345,6 +1514,7 @@
     .card {
         background-color: #090a0f;
         color: white;
+        box-shadow: 2px 5px 5px black;
     }
     .d-block {
         border-radius: 5px;
