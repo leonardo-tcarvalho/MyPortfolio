@@ -205,9 +205,16 @@
         padding: 5px;
     }
     .progress {
-        height: 10px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
-        border-radius: 200px;
+        border-radius: 100px;
+        overflow: visible;
+        background-color: #1F2233;
+    }
+    .progress-bar{
+        border-radius: 100px;
     }
     .h1-progresso {
         font-family: 'Spartan';
@@ -215,6 +222,21 @@
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .porcentagem {
+        position: absolute;
+        background-color: #090a0f;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        opacity: 95%;
+    }
+    .h1-barra {
+        display: flex;
+        margin-top: 14px;
+        margin-left: 7px;
+        font-size: 11px;
+        font-family: 'Spartan';
     }
     .cor-python {
         background-color: rgb(51, 255, 0) !important;
@@ -588,9 +610,16 @@
         padding: 5px;
     }
     .progress {
-        height: 10px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
-        border-radius: 200px;
+        border-radius: 100px;
+        overflow: visible;
+        background-color: #1F2233;
+    }
+    .progress-bar{
+        border-radius: 100px;
     }
     .h1-progresso {
         font-family: 'Spartan';
@@ -598,6 +627,21 @@
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .porcentagem {
+        position: absolute;
+        background-color: #090a0f;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        opacity: 95%;
+    }
+    .h1-barra {
+        display: flex;
+        margin-top: 13px;
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: 'Spartan';
     }
     .cor-python {
         background-color: rgb(51, 255, 0) !important;
@@ -976,9 +1020,16 @@
         padding: 5px;
     }
     .progress {
-        height: 10px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
-        border-radius: 200px;
+        border-radius: 100px;
+        overflow: visible;
+        background-color: #1F2233;
+    }
+    .progress-bar{
+        border-radius: 100px;
     }
     .h1-progresso {
         font-family: 'Spartan';
@@ -986,6 +1037,21 @@
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .porcentagem {
+        position: absolute;
+        background-color: #090a0f;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        opacity: 95%;
+    }
+    .h1-barra {
+        display: flex;
+        margin-top: 12px;
+        margin-left: 5px;
+        font-size: 13px;
+        font-family: 'Spartan';
     }
     .cor-python {
         background-color: rgb(51, 255, 0) !important;
@@ -1074,7 +1140,7 @@
     }
     .div-estudos {
         background-color: #090a0f;
-        width: 35%;
+        width: 45%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
@@ -1345,9 +1411,15 @@
         padding: 5px;
     }
     .progress {
+        position: relative;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+        border-radius: 100px;
+        overflow: visible;
+        background-color: #1F2233;
+    }
+    .progress-bar{
         border-radius: 100px;
     }
     .h1-progresso {
@@ -1356,6 +1428,21 @@
         font-size: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .porcentagem {
+        position: absolute;
+        background-color: #090a0f;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        opacity: 95%;
+    }
+    .h1-barra {
+        display: flex;
+        margin-top: 12px;
+        margin-left: 5px;
+        font-size: 13px;
+        font-family: 'Spartan';
     }
     .cor-python {
         background-color: rgb(51, 255, 0) !important;
@@ -1443,7 +1530,7 @@
     }
     .div-estudos {
         background-color: #090a0f;
-        width: 35%;
+        width: 45%;
         margin-left: auto;
         margin-right: auto;
         padding: 20px;
