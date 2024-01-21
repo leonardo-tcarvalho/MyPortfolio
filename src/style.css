@@ -230,6 +230,7 @@
         height: 40px;
         border-radius: 50%;
         opacity: 95%;
+        margin-left: -8%;
     }
     .h1-barra {
         display: flex;
@@ -635,6 +636,7 @@
         height: 40px;
         border-radius: 50%;
         opacity: 95%;
+        margin-left: -4%;
     }
     .h1-barra {
         display: flex;
@@ -1045,10 +1047,11 @@
         height: 40px;
         border-radius: 50%;
         opacity: 95%;
+        margin-left: -8px;
     }
     .h1-barra {
         display: flex;
-        margin-top: 12px;
+        margin-top: 13px;
         margin-left: 5px;
         font-size: 13px;
         font-family: 'Spartan';
@@ -1439,8 +1442,8 @@
     }
     .h1-barra {
         display: flex;
-        margin-top: 12px;
-        margin-left: 5px;
+        margin-top: 12.5px;
+        margin-left: 4px;
         font-size: 13px;
         font-family: 'Spartan';
     }
